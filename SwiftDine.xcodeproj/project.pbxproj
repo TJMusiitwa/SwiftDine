@@ -17,6 +17,9 @@
 		5B641FF7252E806E00E10814 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5B641FF6252E806E00E10814 /* README.md */; };
 		5B641FFA252E85FF00E10814 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 5B641FF9252E85FF00E10814 /* menu.json */; };
 		5B641FFD252E88C600E10814 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B641FFC252E88C600E10814 /* ItemRow.swift */; };
+		5B642000252F1EDE00E10814 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B641FFF252F1EDE00E10814 /* ItemDetail.swift */; };
+		5B642003252F2A7700E10814 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B642002252F2A7700E10814 /* OrderView.swift */; };
+		5B642006252F2FD400E10814 /* CheckOutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B642005252F2FD400E10814 /* CheckOutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		5B641FF6252E806E00E10814 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5B641FF9252E85FF00E10814 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = menu.json; path = ../../../../Downloads/idine/menu.json; sourceTree = "<group>"; };
 		5B641FFC252E88C600E10814 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
+		5B641FFF252F1EDE00E10814 /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
+		5B642002252F2A7700E10814 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		5B642005252F2FD400E10814 /* CheckOutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckOutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +75,10 @@
 				5B641FF1252E7F8F00E10814 /* Order.swift */,
 				5B641FEE252E7F6400E10814 /* Helper.swift */,
 				5B641FDE252E56D700E10814 /* SwiftDineApp.swift */,
+				5B642005252F2FD400E10814 /* CheckOutView.swift */,
 				5B641FE0252E56D700E10814 /* ContentView.swift */,
+				5B641FFF252F1EDE00E10814 /* ItemDetail.swift */,
+				5B642002252F2A7700E10814 /* OrderView.swift */,
 				5B641FFC252E88C600E10814 /* ItemRow.swift */,
 				5B641FF9252E85FF00E10814 /* menu.json */,
 				5B641FE2252E56D900E10814 /* Assets.xcassets */,
@@ -158,6 +167,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B642000252F1EDE00E10814 /* ItemDetail.swift in Sources */,
+				5B642006252F2FD400E10814 /* CheckOutView.swift in Sources */,
+				5B642003252F2A7700E10814 /* OrderView.swift in Sources */,
 				5B641FE1252E56D700E10814 /* ContentView.swift in Sources */,
 				5B641FDF252E56D700E10814 /* SwiftDineApp.swift in Sources */,
 				5B641FF3252E7F8F00E10814 /* Order.swift in Sources */,
